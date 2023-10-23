@@ -17,6 +17,7 @@ transition: .5s;
     border-radius: 20px;
     background-color: white;
     position: relative;
+    box-shadow: 1px 1px 5px darkgray;
 }
 #flag ,#flag2{
     position: absolute;
