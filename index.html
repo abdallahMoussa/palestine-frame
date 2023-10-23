@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="result">
+        <canvas id="combinedCanvas" >
+            
+        </canvas>
+        <div class="actions">
+            <a id="downloadLink" style="display: none;" download="combined_image.png">
+                <i class="fa fa-download"></i>
+            </a>
+        </div>
+
+        </div>
+        <img id="flag" src="flag.gif" />
+        <img id="flag2" src="flag.gif" />
+
+        <div class="sugestion">
+
+            <div class="drop-zone">
+                <span class="drop-zone__prompt">أضغط او قم بوضع الصوره هنا</span>
+                <input type="file" name="myFile" id="picInput"  accept="image/*" class="drop-zone__input">
+            </div>
+            
+                <div class="frames">
+                    <img src="frame1.png" alt="Frame" class="frame" id="frame1" >
+                    <img src="frame2.png" alt="Frame" class="frame" id="frame2" >
+                    <img src="frame3.png" alt="Frame" class="frame" id="frame3" >
+                    <img src="frame4.png" alt="Frame" class="frame" id="frame4" >
+                    <img src="frame5.png" alt="Frame" class="frame" id="frame5" >
+                    <img src="frame6.png" alt="Frame" class="frame" id="frame6" >
+                    <img src="frame7.png" alt="Frame" class="frame" id="frame7" >
+                    <img src="frame8.png" alt="Frame" class="frame" id="frame8" >
+                </div>
+        </div>
+        <button style="display: none;" id="combineImages">Combine Images</button>
+        
+    </div>
+  
+
+</body>
+</html>
