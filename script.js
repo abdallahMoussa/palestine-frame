@@ -82,7 +82,7 @@ window.onload = () => {
       } else {
         Swal.fire({
           title: "من فضلك قم بأختيار الصورة",
-          text: "اضف صورتك الشخصيع",
+          text: "اضف صورتك الشخصيه من الاسفل",
           icon: "info",
           confirmButtonText: "حسنا",
         });
