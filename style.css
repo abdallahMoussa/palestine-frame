@@ -42,6 +42,7 @@ transition: .5s;
     z-index: 1;
     background-color: whitesmoke;
 box-shadow: 1px 1px 3px gray;
+border: 1px solid gray;
 }
 .result::after{
     content: "عاشت فلسطين دولة حرة";
@@ -106,7 +107,7 @@ box-shadow: 1px 1px 3px gray;
 }
 .frames{
     width: calc(100% - 160px);
-    height: 200px;
+    height: 250px;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -184,7 +185,6 @@ flex-direction: column-reverse;    }
 } 
 .frames{
     width: 96%;
-    height: 250px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }

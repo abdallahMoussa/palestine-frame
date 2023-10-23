@@ -17,7 +17,7 @@ window.onload = () => {
       pic.src = e.target.result;
 
       pic.onload = function () {
-        combineButton.disabled = false; // Enable combine button once the pic is loaded
+        combineButton.disabled = false;
       };
     };
 
